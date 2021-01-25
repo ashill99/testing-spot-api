@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+
+}
+
+.bracket-box {
+  border: 5px solid red;
+  height: 200px; 
+  width: 100;
+  padding: 50px;
+  margin: 20px
+
+}
+
+.round-two-box {
+  border: 5px solid red;
+  height: 200px; 
+  width: 100;
+  padding: 50px;
+  margin: 20px;
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
+
+.container-bracket-box {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
